@@ -6,12 +6,6 @@
 require 'matrix'
 require 'mathn'
 
-class Array
-   def sum
-      inject(0) { |sum,term| sum += term  }.to_f
-   end
-end
-
 class Vector
   def magnitude
     sumsqs = 0.0
